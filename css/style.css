@@ -1,0 +1,82 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   padding: 20px 10px;
+   text-align: center;
+}
+
+.container{
+   width: 700px;
+   min-height: 500px;
+   padding: 40px;
+   border: solid 3px black;
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+}
+
+h1{
+   font-size: 50px;
+   font-weight: bold;
+}
+/*estilo siguiente sobre el input*/
+#ingresar-tarea{
+width: 80%;
+height: 30px;
+padding: 10px;
+background-color: rgba(111, 127, 156, 0.61);
+font-size: 20px;
+border: solid 0px;
+border-radius: 10px;
+
+}
+
+/*estilo tarea creada*/
+
+.tarea{
+   width: 100%;
+   min-height: 70px;
+   font-size: 25px;
+   background-color: darkolivegreen;
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+   border: solid 1px black;
+}
+
+.tareacompletada{
+text-decoration: line-through;
+background-color: rgba(0, 0, 0, 0.096);
+border: none;
+text-decoration: line-through;
+}
+
+#btncreartarea{
+   padding: 10px;
+   margin-top: 20px;
+   border: none;
+   background-color: blue;
+
+}
+
+.iconos{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+
+}
+
